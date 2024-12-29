@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://icon-library.com/images/cross-png-icon/cross-png-icon-19.jpg" type="image/icon type">
+    <title> Let's Cross and Nut</title>
+    <link href="styles.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="main-container">
+        <div id="score-board">
+            <div class="title"><h2>Let's <br>Cross <br>and Nut</h2></div>
+            <div class="boardX">
+                <p>❌ <br>score</p><br>
+                <p id="cross-score" style="font-size:23px;">0</p>
+            </div>
+            <div class="boardO">
+                <p>⭕ <br>score</p><br>
+                <p id="nut-score" style="font-size:23px;">0</p>
+            </div>
+        </div>
+        <div id="game-board">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+        <div id="winner-div">
+            <p>THE WINNER<BR>IS</p>
+            <p class="winner-symbol" style="font-size:60px;"></p>
+        </div>
+    </div>
+    <button type="reset" onClick=reset() class="rst-btn">RESET</button>
+    <script src="script.js"></script>
+</body>
+</html>
